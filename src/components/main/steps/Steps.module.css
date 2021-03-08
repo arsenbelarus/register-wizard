@@ -1,0 +1,60 @@
+.step1_container {
+  max-height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.step1_item {
+  width: 300px;
+  margin-bottom: 10px;
+
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.step1_item label {
+  text-transform: uppercase;
+}
+
+.step1_item select {
+  width: 165px;
+}
+
+.step1_itemStar {
+  position: absolute;
+  top: -5px;
+  left: -10px;
+
+  color: blue;
+
+  font-size: 20px;
+}
+
+.step1_item input {
+  outline: none;
+}
+
+.errorIcon {
+  position: absolute;
+  top: 0;
+  right: -25px;
+}
+
+.step2_container {
+  max-height: 200px;
+
+  display: flex;
+}
+
+.step2_left .step2_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.step2_right {
+}

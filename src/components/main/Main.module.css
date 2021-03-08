@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+
+  display: flex;
+}
+
+.navIcons {
+  width: 20%;
+  min-height: 75vh;
+  border-right: 1px solid gray;
+  align-self: stretch;
+}
+
+.formContainer {
+  width: 80%;
+  padding: 20px 0 20px 30px;
+}
